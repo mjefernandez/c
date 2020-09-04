@@ -1,0 +1,36 @@
+body{
+  margin: 0;
+  overflow-x: hidden;
+}
+.body-container{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: grey;
+}
+
+
+.left-design{
+  width: 310px;
+  height: 500px;
+  border-bottom-left-radius: 160px;
+  border-bottom-right-radius: 160px;
+  position: absolute;
+  background: blue;
+  left: -150px;
+  top: 0;
+
+}
+.right-design{
+  width: 310px;
+  height: 500px;
+  border-top-left-radius: 160px;
+  border-top-right-radius: 160px;
+  position: absolute;
+  background: blue;
+  right: -150px;
+  bottom: 0;
+
+
+
+}
